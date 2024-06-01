@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <style>
+        /* Hide header, footer, rotating promo bar, and newsletter section */
+        #header, .header, header { display: none !important; }
+        #footer, .footer, footer { display: none !important; }
+        #rotating-promo-bar, .rotating-promo-bar, rotating-promo-bar { display: none !important; }
+        .newsletter_section { display: none; }
+
+        /* Adjust main content alignment */
+        .twelve.columns.offset-by-two.page.clearfix {
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+        min-height: 100vh;
+        }
+
+        /* Ensure the logo image is responsive */
+        .twelve.columns.offset-by-two.page.clearfix img {
+        width: 50%;
+        max-width: 300px;
+        margin-top: 10px;
+        }
+        
+
+        .links {
+            margin-top: 5px;
+        }
+
+        @media screen and (min-width: 750px) {
+        .twelve.columns.offset-by-two.page.clearfix img {
+            width: 90%;
+            
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="twelve columns offset-by-two page clearfix">
+        <p><a href="/" itemprop="url">
+          <img src="images/logo.png" alt="{{ shop.name }}" itemprop="logo">
+        </a></p>
+        <h1 class="title">{{ page.title }}</h1>
+        <div class="feature_divider"></div>
+        <div>
+          {{ page.content }}
+          <div class="links">
+            <small>
+              <a href="https://therwc.org/">Real Wealth</a> | 
+              <a href="https://therwc.org/policies/privacy-policy">Privacy Policy</a>
+            </small>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
