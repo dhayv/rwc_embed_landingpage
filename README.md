@@ -58,6 +58,8 @@ The primary goals of this landing page is to:
         width: 90%;
     }
 }
+```
+
 
 - **Spacing Adjustments:** Margins are set for paragraphs and bold titles to ensure consistent and visually appealing spacing.
 
