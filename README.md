@@ -1,4 +1,17 @@
-# Landing Page for Real Wealth Club
+# Landing Page for the clothing brand Real Wealth Club
+
+## Table of contents
+
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Purpose](#purpose)
+  - [Features](#features)
+  - [Built with](#built-with)
+  - [Details of Implementation](#details-of-implementation)
+  - [Content Structure](#content-structure)
+- [Author](#author)
+  - [Usage](#usage)
 
 ## Overview
 
@@ -29,6 +42,11 @@ The primary goals of this landing page is to:
 - **Responsive Design:** The logo and content adapt seamlessly across different devices, ensuring a consistent user experience.
 - **Centered Content:** The logo, title, and promotional text are centered to capture and hold the user's attention.
 - **Clear Call to Action:** Bold titles and well-structured content guide users toward the desired action.
+
+### Built with
+
+- HTML5
+- CSS custom properties
 
 ## Details of Implementation
 
@@ -72,3 +90,7 @@ The primary goals of this landing page is to:
 ## Usage
 
 This landing page is designed to be integrated into a Shopify store with an embedded Klaviyo form for capturing email leads. It is versatile for use in various promotional campaigns aimed at driving specific user actions and enhancing conversion rates.
+
+# Author
+
+Dhayv
