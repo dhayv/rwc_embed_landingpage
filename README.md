@@ -59,6 +59,7 @@ The primary goals of this landing page is to:
   #footer, .footer, footer { display: none !important; }
   #rotating-promo-bar, .rotating-promo-bar, rotating-promo-bar { display: none !important; }
   .newsletter_section { display: none; }
+  ```
 
 - **Main Content Styling:** The main content is centered with added padding for better readability. A minimum height is set to ensure the content occupies the full viewport height.
 - **Responsive Logo:** The logo's size adjusts based on the screen width for optimal display.
@@ -78,7 +79,6 @@ The primary goals of this landing page is to:
 }
 ```
 
-
 - **Spacing Adjustments:** Margins are set for paragraphs and bold titles to ensure consistent and visually appealing spacing.
 
 ### Content Structure
@@ -91,6 +91,6 @@ The primary goals of this landing page is to:
 
 This landing page is designed to be integrated into a Shopify store with an embedded Klaviyo form for capturing email leads. It is versatile for use in various promotional campaigns aimed at driving specific user actions and enhancing conversion rates.
 
-# Author
+## Author
 
 Dhayv
